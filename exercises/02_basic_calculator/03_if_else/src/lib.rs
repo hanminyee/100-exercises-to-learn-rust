@@ -1,5 +1,12 @@
 /// Return `true` if `n` is even, `false` otherwise.
 fn is_even(n: u32) -> bool {
+    let k = n%2;
+    if k==0{
+        return true;
+    }
+    else {
+        return false;
+    }
     todo!()
 }
 
